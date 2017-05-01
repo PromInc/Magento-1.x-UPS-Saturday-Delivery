@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <sections>
+        <shipping>
+            <groups>
+                <saturday_delivery_ups translate="label">
+                    <label>Saturday Delivery - UPS</label>
+                    <sort_order>180</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Saturday Delivery Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enabled>
+                        <days_enabled translate="label">
+                                <label>Days of Week to Offer Saturday Delivery</label>
+                                <frontend_type>multiselect</frontend_type>
+                                <source_model>adminhtml/system_config_source_locale_weekdays</source_model>
+                                <sort_order>20</sort_order>
+                                <show_in_default>1</show_in_default>
+                                <show_in_website>1</show_in_website>
+                                <show_in_store>1</show_in_store>
+                                <can_be_empty>1</can_be_empty>
+                        </days_enabled>
+                        <allowed_methods translate="label">
+                            <label>Enabled UPS Methods</label>
+                            <frontend_type>multiselect</frontend_type>
+                            <source_model>prominc_shipping/carrier_ups_source_method</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>0</show_in_store>
+                            <can_be_empty>1</can_be_empty>
+                        </allowed_methods>
+                    </fields>
+                </saturday_delivery_ups>
+            </groups>
+        </shipping>
+    </sections>
+</config>

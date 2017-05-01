@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Prominc_Shipping>
+            <version>1.0.0</version>
+        </Prominc_Shipping>
+    </modules>
+    <global>
+        <models>
+            <shipping>
+                <rewrite>
+                    <shipping>Prominc_Shipping_Model_Shipping</shipping>
+                </rewrite>
+            </shipping>
+            <usa>
+                <rewrite>
+                    <shipping_carrier_ups>Prominc_Shipping_Model_Shipping_Carrier_Ups</shipping_carrier_ups>
+                </rewrite>
+            </usa>
+        </models>
+    </global>
+</config>

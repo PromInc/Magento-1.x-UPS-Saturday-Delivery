@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Prominc_Shipping>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Prominc_Shipping>
+    </modules>
+</config>
