@@ -3,7 +3,7 @@
     <modules>
         <Prominc_Shipping>
             <active>true</active>
-            <codePool>local</codePool>
+            <codePool>community</codePool>
         </Prominc_Shipping>
     </modules>
 </config>
