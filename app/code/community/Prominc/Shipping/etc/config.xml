@@ -7,6 +7,9 @@
     </modules>
     <global>
         <models>
+            <prominc_shipping>
+                <class>Prominc_Shipping_Model</class>
+            </prominc_shipping>
             <shipping>
                 <rewrite>
                     <shipping>Prominc_Shipping_Model_Shipping</shipping>
