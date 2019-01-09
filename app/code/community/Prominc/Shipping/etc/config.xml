@@ -2,11 +2,14 @@
 <config>
     <modules>
         <Prominc_Shipping>
-            <version>1.0.0</version>
+            <version>1.1.0</version>
         </Prominc_Shipping>
     </modules>
     <global>
         <models>
+            <prominc_shipping>
+                <class>Prominc_Shipping_Model</class>
+            </prominc_shipping>
             <shipping>
                 <rewrite>
                     <shipping>Prominc_Shipping_Model_Shipping</shipping>
